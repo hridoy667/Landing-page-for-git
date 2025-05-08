@@ -18,25 +18,83 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="container">
+<body class="bg-danger-subtle">
+    <section class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-danger ">
             <div class="container-fluid">
-              <a class="navbar-brand text-white fs-3" href="#">SweetsliceZone</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link text-white" href="#">Services</a>
-                  <a class="nav-link text-white" href="#">About</a>
-                  <a class="nav-link text-white" href="#">Contact</a>
+                <a class="navbar-brand text-white fs-3" href="#">SweetsliceZone</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-white active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link text-white" href="#menu">Menu</a>
+                        <a class="nav-link text-white" href="#">About</a>
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </div>
                 </div>
-              </div>
             </div>
-          </nav>
-    </div>
+        </nav>
+    </section>
+    
+    <section id="home" class="container" style="height: 70vh;">
+        <div class="bg-warning d-flex align-items-center justify-content-center h-100">
+            <div class=" text-center px-4 py-5">
+                <h1 class="display-4 fw-bold text-brown mb-4">Freshly Baked Happiness</h1>
+                <p class="lead text-dark mb-4 fs-5">
+                    Discover our delicious range of breads, pastries, and custom cakes made with love daily.
+                </p>
+                <a href="#menu" class="btn btn-danger px-5 py-3 rounded-pill">
+                    Browse Menu
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="container py-2 px-3">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center bg-warning-subtle">
+                    <img src="./img/cake1.jpg" class="card-img-top bg-danger-subtle border-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Cake</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center bg-warning-subtle"">
+                    <img src=" ./img/cake2.jpg" class="card-img-top bg-danger-subtle border-3 img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Strawberry Cake</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center bg-warning-subtle">
+                    <img src="./img/cake3.jpg" class="card-img-top bg-danger-subtle border-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vanilla Cake</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+              <a href="#" class="btn btn-danger">Explore More Cakes</a>
+            </div>
+          </div>   
+    </section>
+
     <!-- Bootstrap JS Bundle -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
